@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua conta</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bloco">
+        <h1 class="title">Crie sua conta</h1>
+        <h3 class="subtitle">Já possui uma conta? Clique <a href="">aqui</a></h3>
+
+        <form  class="form" id="form" action="concluido.html">
+            <label for="nome">Nome de usuário:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email"  required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+
+            <label for="check">Confirme a senha:</label>
+            <input type="password" name="check" id="check" required>
+            <p id="demo"></p>
+
+            <button  id="submit" onclick="checkPass()" class="btn" type="submit">Cadastrar</button>
+        </form>
+        <p class="termos">Eu li e aceito os <a href="" id="termo">Termos de serviço</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

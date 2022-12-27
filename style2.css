@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgb(88, 24, 54) , rgb(73, 114, 194));
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+}
+
+.bloco{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    width: 40rem;
+    height: 20rem;
+    margin-left: 30%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(39, 38, 38);
+}
+
+h1{
+    font-size: 3rem;
+    position: absolute;
+    top: 14rem;
+}
